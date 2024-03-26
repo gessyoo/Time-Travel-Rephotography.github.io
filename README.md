@@ -31,6 +31,11 @@ Or you can run our method on your own machine following the instructions below.
  
 ## Prerequisite
 - Pull third-party packages.
+- 
+sudo apt-get install build-essential cmake pkg-config   # necessary for dlib to compile
+sudo apt-get install libx11-dev libatlas-base-dev
+sudo apt-get install libgtk-3-dev libboost-python-dev
+- 
   ```
   git submodule update --init --recursive
   ```
